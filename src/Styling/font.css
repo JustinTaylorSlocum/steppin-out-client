@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'MISTRAL';
+    src: local('MISTRAL'), url(../../fonts/MISTRAL.TTF) format('ttf');
+  }
+
+@font-face {
+    font-family: 'QUICKSAND';
+    src: local('QUICKSAND'), url(../../fonts/QUICKSAND.ttf) format('ttf');
+}

@@ -1,0 +1,15 @@
+[
+    {
+        "title": "Steppin Out Band - Demo",
+        "shortTitle": "steppinoutdemo",
+        "thumbnail": "./vidThumbs/vid1Thumb.webp",
+        "link": "https://www.youtube.com/embed/Mwv057hkQCA"
+    },
+    {
+        "title": "Steppin Out Animated",
+        "shortTitle": "steppinoutanimated",
+        "thumbnail": "./vidThumbs/vid2Thumb.webp",
+        "link": "https://www.youtube.com/embed/34GUKPqWeFw"
+
+    }
+]

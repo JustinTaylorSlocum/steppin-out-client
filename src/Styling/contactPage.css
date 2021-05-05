@@ -1,0 +1,146 @@
+.contact-form {
+    margin-top: 0;
+    text-align: left;
+    padding-bottom: 60px;
+}
+
+.contact-form form {
+    display: block;
+    margin-top: 0em;
+}
+
+.wrap {
+    padding: 10px;
+}
+
+.wrap label {
+    color: rgba(0, 0, 0, 0.7);
+    display: inline-block;
+    font-weight: 700;
+    font-size: 22px;
+    text-transform: capitalize;
+    cursor: default;
+    margin-bottom: 0.25em;
+    margin-top: 0.4em;
+    float: none;
+    font-weight: bold;
+    display: block;
+}
+
+.wrap span {
+    font-size: 75%;
+    margin-left: 0.25em;
+    font-weight: normal;
+    display: inline-block;
+}
+
+.wrap input {
+    box-sizing: border-box;
+    font-size: 17px;
+    padding-bottom: 3.5em;
+    width: 100%;
+    color: black;
+    padding: 0.71428571em 1.07142857em;
+    background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: normal;
+    background-color: rgb(236, 236, 236);
+    border-radius: 0;
+    line-height: 1.625;
+    margin: 0;
+    max-width: 100%;
+    vertical-align: baseline;
+    cursor: text;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: textfield;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+}
+
+
+.wrap textarea {
+    box-sizing: border-box;
+    float: none;
+    height: 200px;
+    margin-bottom: 1.5em;
+    width: 100%;
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 0.71428571em 1.07142857em;
+    background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: rgb(236, 236, 236);
+    border-radius: 0;
+    font-size: 18px;
+    line-height: 1.625;
+    margin: 0;
+    max-width: 100%;
+    vertical-align: baseline;
+    -webkit-rtl-ordering: logical;
+    flex-direction: column;
+    resize: auto;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    column-count: initial !important;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: textarea;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+}
+
+.contact-submit {
+    border-color: transparent;
+    background-color: rgba(37, 37, 37, 0.856);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.979);
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 5px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    line-height: 1.69230769;
+    margin-bottom: 0.76923077em;
+    margin-right: 0.76923077em;
+    opacity: 1;
+    padding: 0.21538462em 1.03846154em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.25s ease 0s;
+    margin: 0;
+    max-width: 100%;
+    vertical-align: baseline;
+    font: inherit;
+    text-indent: 0px;
+    text-shadow: none;
+    align-items: flex-start;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    word-spacing: normal;
+}
+
+
+@media only screen and (min-width: 600px) {
+    .wrap input {
+        width: 50%;
+    }
+}

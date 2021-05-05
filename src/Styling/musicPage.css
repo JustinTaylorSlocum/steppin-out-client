@@ -1,0 +1,237 @@
+.musicGrid {
+    margin-top: 1.75em;
+    clear: both;
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.hide {
+    display: none !important;
+}
+
+.albDisplay {
+    margin: 0 !important;
+    max-width: 1140px !important;
+    padding-bottom: 1.5em !important;
+    font-size: 1.0rem;
+}
+
+.displayArea {
+    margin: 0 auto;
+    max-width: 1140px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+}
+
+.recordTitle {
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 1.5em;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    margin: 0;
+    text-transform: none;
+    word-wrap: break-word;
+    line-height: 1.41666667;
+    margin-bottom: 0.11em;
+}
+
+.trackListSection {
+    margin: 0 -10px;
+}
+
+.trackList {
+    border-top: 1px solid rgba(0, 0, 0, 0.18);
+    counter-reset: li;
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    font-size: 1.3rem;
+    letter-spacing: 0.025em;
+    margin: 1.75em 0 3.5em;
+    list-style: decimal;
+    padding: 0 0 0 1.3em;
+}
+
+.trackListItem {
+    font-size: 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.18);
+    display: block;
+    padding: 0.625em 1.25em;
+    position: relative;
+    transition: all ease-in-out 0.25s;
+    margin-bottom: auto;
+    cursor: pointer;
+}
+
+.trackListItem:hover {
+    background-color: rgba(12, 12, 12, 0.158) !important;    
+}
+
+
+.trackMeta {
+    /* display: none; */
+    float: right;
+    margin-right: 0.3125em;
+}
+
+.track-duration {
+    display: inline;
+}
+
+.track-current-time {
+    display: none;
+}
+
+.track-sep {
+    display: none;
+}
+
+.track-progress {
+    display: none;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    height: 0.3125em;
+}
+
+.track-seek-bar:hover {
+    background-color: rgba(0, 0, 0, 0.18);
+}
+
+.track-seek-bar {
+    width: 100%; 
+    height: 0.3125em;
+}
+
+.track-play-bar {
+    height: 0.3125em;
+    background-color: #1f1f1f;
+}
+
+.isPlayable {
+    cursor: pointer;
+}
+
+.albThumb {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+}
+
+.e-thumb {
+    margin-bottom: 2.5em;
+    margin: 0;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    background: transparent;
+}
+
+p {
+    margin: 0 0 1.625em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+
+@media (min-width: 600px) {
+    .trackMeta {
+        display: inline-block;
+    }
+}
+
+
+
+@media (min-width: 600px) {
+    .artItem {
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+}
+
+@media (min-width: 660px) {
+    .displayContent {
+        float: right;
+        width: 100%;
+        /* max-width: 700px; */
+    }
+
+    .displayPrimary {
+        float: right;
+        width: 100%;
+    }
+    
+    .displaySecondary {
+        float: left;
+        margin-right: 0; 
+        /* margin-left: -14.44444444em; */
+        /* width: 12.22222222em; */
+    }
+
+    .albDisplay {
+        padding-right: 0;
+        padding-bottom: 3em;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .track-duration {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .artItem {
+        max-width: 33.3333%;
+        flex: 0 0 33.3333%;
+    }
+
+    .trackListSection {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+
+}
+
+@media (min-width: 768px) {
+    .displaySecondary {
+        margin-left: -21.11111111em;
+        margin-right: -21.11111111em;
+        width: 18.88888889em;
+    }
+}
+
+@media (min-width: 900px) {
+    .displaySecondary {
+        margin-left: -21.11111111em;
+        width: 18.88888889em;
+    }
+
+    .albDisplay {
+        padding-left: 21.11111111em;
+    }
+
+    .albThumb {
+        width: 340px;
+        height: 340px;
+    }
+}

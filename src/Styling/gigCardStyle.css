@@ -1,0 +1,120 @@
+@media (min-width: 480px) {
+    .gigCard {
+        min-height: 100%;
+    }
+
+    .gigDate {
+        position: static;
+        text-align: left;
+        width: auto;
+        flex: 1 20%;
+        flex: 1 100%;
+    }
+
+    .gigMonth {
+        display: inline-block;
+    }
+
+    .gigDay {
+        margin-left: 0.47619048em;
+        display: inline-block;
+    }
+
+    .gigTitle {
+        font-size: 16px;
+        font-size: 1.6rem;
+        padding-left: 0;
+        flex: 1 80%;
+        flex: 1 100%;
+    }
+
+    .gigVenue {
+        padding-left: 15%;
+        font-size: 16px;
+        font-size: 1.6rem;
+        flex: 1 100%;
+    }
+
+    .gigDescription {
+        padding-left: 15%;
+        flex: 1 100%;
+        font-size: 13px;
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 600px) {
+    .gigOuter {
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+
+}
+
+
+
+@media (min-width: 768px) {
+    .gigCard {
+        padding: 1.0625em 0.9375em;
+    }
+
+    .gigDate {
+        flex: 1 14%;
+        order: 1;
+    }
+
+    .gigDay {
+        margin-left: 0.71428571em;
+    }
+
+    .gigVenue {
+        padding-left: 0;
+        flex: 1 43%;
+        order: 2;
+    }
+
+    .gigDescription {
+        padding-left: 15%;
+        flex: 2 auto;
+        Order: 4;
+    }
+
+    .gigOuter {
+        margin-bottom: 3.57142857em;
+        max-width: 33.3333%;
+        flex: 0 0 33.3333%;
+    }
+
+}
+
+dl {
+    margin: 0 0 1.625em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+dt {
+    font-weight: 700;
+    display: block;
+
+}
+
+dd {
+    margin-left: 0;
+    margin-bottom: 0.19230769em;
+    display: block;
+    /*margin-inline-start: 40px;*/
+    
+}
+
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    overflow: hidden;
+    position: absolute !important;
+    white-space: nowrap;
+    width: 1px;
+}

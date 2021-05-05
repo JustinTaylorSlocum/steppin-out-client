@@ -1,0 +1,9 @@
+playIcon {
+    background: url('../images/play.png');
+    padding: 12px;
+}
+
+pauseIcon {
+background: url("../images/pause.png");
+padding: 12px;
+}

@@ -1,0 +1,338 @@
+.gigNav {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 13px;
+    font-size: 1.3rem;
+    padding-bottom: 0.76923077em;
+
+    display: block;
+    font-size: 1.3rem;
+    padding-bottom: 0.76923077em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+.gigNav ul {
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.gigNav li {
+    margin-bottom: 0;
+    text-align: -webkit-match-parent;
+}
+
+.ulNav a {
+    display: inline-block;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    padding: 0.69230769em 1.15384615em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.205);
+}
+
+ul {
+    margin: 0 0 1.625em;
+    margin-block-start: 0px;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    display: block;
+}
+
+.menuItem {
+    display: inline-block;
+}
+
+.menuItem button {
+    display: inline-block;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    padding: 0.19230769em 0.55384615em;
+    text-align: center;
+    border:none;
+    margin: 7px;
+    text-decoration: none;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.menuItem button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.pageContent:first-child {
+    margin-top: 0;
+}
+
+p {
+    margin: 0 0 1.625em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.gigList {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 3.75em;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 50px;
+}
+
+
+.event {
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    min-height: 5.125em;
+    padding-top: 10px;
+    padding-bottom: 0px !important;
+    padding: 0.475em 0.225em;
+    position: relative;
+    flex-flow: row wrap;
+    font-size: 0.9;
+    text-align: left;
+}
+
+.event:hover {
+    background: rgba(8, 8, 8, 0.027);
+    cursor: pointer;
+}
+
+dl {
+    margin: 0 0 1.625em;
+    margin-block-start: 1em;
+    margin-block-end: 1em !important;
+    margin-inline-start: 0px !important;
+    margin-inline-end: 0px !important;
+    margin-inline-end: 0px !important;
+    -webkit-margin-end: 0px !important;
+    -webkit-margin-start: 0px !important;
+    -webkit-margin-after: 0px !important;
+    -webkit-margin-before: 0px !important;
+}
+
+.gigdate {
+    top: 0.8125em;
+    left: 0;
+    color: rgb(0, 0, 0);
+}
+
+.event dd {
+    margin-bottom: 0;
+}
+
+dd {
+    margin-left: 0;
+    display: block;
+    margin-inline-start: 40px;
+}
+
+.format {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    display: none;
+}
+
+.month {
+    top: -0.04761905em;
+    line-height: 1;
+    position: relative;
+}
+
+.day {
+    font-size: 1.2rem;
+    font-weight: 700;
+    top: 0.2px;
+    line-height: 1;
+    position: relative;
+}
+
+.gigTitle {
+    font-weight: 400;
+    width: 100%;
+}
+
+.gigVenue {
+    width: 100%;
+}
+
+.gigDescription {
+    margin-top: 0.1em;
+}
+
+.gigMessage {
+    font-size: 20px;
+    padding-bottom: 30px;
+    font-weight: 100;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.705);
+}
+
+.gigItemSide {
+    margin-bottom: 3.125em;
+}
+.gigItemListLabel {
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+    font-size: 1.0rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    line-height: 2;
+    text-transform: uppercase;
+    margin: 0;
+}
+.gigItemList {
+    color: rgba(2, 2, 2, 0.7);
+}
+.gigAttributes {
+    margin: 0 0 1.625em;
+}
+.venue-map {
+    margin: 0;
+}
+
+.venue-map iframe {
+    border: 1px solid black; 
+    margin-bottom: 2rem;
+}
+
+.venueTitle {
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    margin-bottom: 1.325em;
+    margin-top: 0;
+    text-transform: uppercase; 
+}
+
+@media (min-width: 200px) {
+    .event {
+        min-height: 100%;
+    }
+    .gigdate {
+        position: static;
+        text-align: left;
+        width: auto;
+        flex: 1 20%;
+    }
+    .month {
+        display: inline-block;
+    }
+    .day {
+        display: inline-block;
+        margin-left: 0.237619048em;
+    }
+    .gigTitle {
+        font-size: 1.1rem;
+        padding-left: 0;
+        flex: 1 80%;
+    }
+    .gigVenue {
+        font-size: 1.0rem;
+        padding-left: 15%;
+        flex: 1 1 100%;
+        padding-left: 20%;
+        flex: 1 100%;
+    }
+    .gigDescription {
+        font-size: 0.8rem;
+        padding-left: 20%;
+        flex: 1 100%;
+        -webkit-margin-start: 0px;
+        margin-inline-start: 0px;
+    }
+    dd {
+        -webkit-margin-start: 0px;
+        margin-inline-start: 0px;
+    }
+    .gigItemListLabel {
+        float: left;
+        position: relative;
+        top: 0.8em;
+        width: 9.23076923em;
+    }
+    .gigItemList {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        margin-bottom: 0;
+        padding: 1.0625em 0;
+        margin: 0;
+    }
+    .gigAttributes {
+        border-top: 1px solid rgba(0, 0, 0, 0.2);
+    }
+}
+
+@media (min-width: 768px) {
+    .event {
+        padding-left: 0em 0em;
+    }
+    .gigdate {
+        flex: 1 17%;
+        order: 1;
+    }
+    .day {
+        margin-left: 0.71428571em;
+    }
+    .gigTitle {
+        flex: 1 35%;
+        order: 3;
+
+    }
+    .gigVenue {
+        padding-left: 0px;
+         flex: 1 40%;
+         order: 2;
+    }
+    .gigDescription {
+        padding-left: 20%;
+        flex: 2 100%;
+        order: 4;
+    }
+    /*  GigPage Item */
+    .primGigI {
+        float: right;
+        max-width: 65.45454545%;
+        width: 100%;
+    }
+    .gigItemDate {
+        font-size: 1.8rem;
+    }
+    .gigItemSide {
+        float: left;
+        margin-left: -50.7%;
+        margin-right: 0;
+        margin-top: 14.5em;
+        width: 47.3%;
+    }
+    .gigItemMeta {
+        float: right;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .gigItemMetaInside {
+        order: 2;
+    }
+    .gigAttributes {
+        margin-bottom: 0;
+    }
+    .venue-map {
+        order: 1;
+        margin-left: -52.7%;
+    }
+    .venueMeta {
+        order: 3;
+    }
+    .venueTitle {
+        display: none;
+    }
+}

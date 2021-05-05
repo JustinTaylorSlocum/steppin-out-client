@@ -1,22 +1,61 @@
 {
-  "name": "steppin-out",
-  "version": "1.0.0",
+  "name": "client",
   "private": true,
-  "description": "steppin-out",
-  "author": "BuildTools",
+  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "version": "0.1.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@react-google-maps/api": "^2.1.1",
+    "@react-icons/all-files": "^4.1.0",
+    "axios": "^0.21.1",
+    "emailjs-com": "^2.6.4",
+    "gatsby": "^2.32.11",
+    "gatsby-image": "^2.11.0",
+    "gatsby-plugin-manifest": "^2.12.1",
+    "gatsby-plugin-offline": "^3.10.2",
+    "gatsby-plugin-react-helmet": "^3.10.0",
+    "gatsby-plugin-sharp": "^2.14.3",
+    "gatsby-source-filesystem": "^2.11.1",
+    "gatsby-transformer-sharp": "^2.12.1",
+    "genericons-neue": "^4.0.5",
+    "howler": "^2.2.1",
+    "json-server": "^0.16.3",
+    "prop-types": "^15.7.2",
+    "react": "^16.14.0",
+    "react-beforeunload": "^2.4.0",
+    "react-dom": "^16.14.0",
+    "react-fade-in": "^2.0.1",
+    "react-h5-audio-player": "^3.7.0",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.2.0",
+    "react-image-gallery": "^1.0.9",
+    "react-responsive-masonry": "^2.1.2"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
+  },
+  "proxy": "https://steppin-out-backend.herokuapp.com",
   "keywords": [
     "gatsby"
   ],
+  "license": "0BSD",
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
     "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "server": "json-server --watch --port 5000 db.json"
   },
-  "dependencies": {
-    "gatsby": "^3.2.1",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }

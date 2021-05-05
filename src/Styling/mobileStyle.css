@@ -1,0 +1,139 @@
+/* .siteNavToggle {
+    background-color: transparent;
+    border-color: transparent;
+    border-width: 0 1px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 9px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    line-height: 3.84615385em;
+    margin: 0;
+    padding: 0 1.53846154em;
+    text-transform: uppercase;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 0;
+    font-size: 14px;
+    font-size: 1.4rem;
+    line-height: 1.625;
+    margin: 0;
+    max-width: 100%;
+    vertical-align: baseline;
+    cursor: pointer;
+    -webkit-appearance: button;
+    text-transform: none;
+    overflow: visible;
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    appearance: auto;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+ */
+
+/* 
+.navItem {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    display: block;
+    margin-bottom: 0;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: -webkit-match-parent;
+}
+
+.navRow {
+    color: rgb(255 255 255 / 70%);
+    font-size: 1em;
+    display: none;
+    line-height: 1.3846;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.navLink:hover {
+    color: rgba(255, 255, 255, 1) !important;
+}
+
+
+@media (min-width: 600px) {
+    .gridMobile {
+        max-width: 50% !important;
+        flex: 0 0 50% !important;
+    }
+    .gridItem {
+        max-width: 50% !important;
+        flex: 0 0 50% !important;
+    }
+}
+@media (min-width: 768px) {
+    .navRow {
+        background-color: transparent;
+        display: block;
+        margin: 0 auto;
+        max-width: 1100px;
+        position: static;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1100px;
+        width: 100%;
+    }
+    .siteNavToggle {
+        display: none !important;
+    }
+    .navLink {
+        line-height: 0;
+        padding-left: 1.53846154em;
+        padding-right: 1.53846154em;
+        transition: none;
+    }
+
+    .navItem {
+        border-width: 0;
+        display: inline-block;
+        position: relative;
+    }
+    .gridMobile {
+        max-width: 33.3333% !important;
+        flex: 0 0 33.3333% !important;
+    }
+    .gridItem {
+        max-width: 33.3333% !important;
+        flex: 0 0 33.3333% !important;
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer {
+        padding-bottom: 6.875em;
+    }
+}
+ */
